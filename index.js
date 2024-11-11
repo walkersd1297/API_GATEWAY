@@ -7,7 +7,7 @@ const axios = require('axios');
 const dotenv = require('dotenv').config(); 
 
 
-const PORT = process.env.PORT;
+const PORT = 3004;
 
 const limiter = rateLimit({
 	windowMs: 2 * 60 * 1000,
